@@ -20,6 +20,6 @@ if weekday in range(1, 6):
         connection.login(user=MY_EMAIL, password=MY_PASSWORD)
         connection.sendmail(
             from_addr=MY_EMAIL,
-            to_addrs='rongcon_armani@yahoo.com',
+            to_addrs='jackyhuynh87@gmail.com',
             msg=f'Subject:Monday Motivation\n\n{quote}'
         )
