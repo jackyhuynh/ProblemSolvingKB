@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ada19cc1-2977-4260-ad20-13b8f2d9ab88" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Basic 30 Exception Handling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Basic 30 Exception Handling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Basic 31-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI Fundamental.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic 31.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank_Test.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hex Code.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySQL Practice.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayGround.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonObject.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursive.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/.idea/day16.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/another_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/us-states-game-start.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +52,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Basic 32 Birthday Wisher" />
   </component>
   <component name="RunManager">
     <configuration name="Basic 27" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
