@@ -1,1 +1,6 @@
-{"Amazon": {"email": "jacky@gmnail.com", "password": "12354"}}
+{
+    "Amazon": {
+        "email": "jacky@gmnail.com",
+        "password": "12354"
+    }
+}
