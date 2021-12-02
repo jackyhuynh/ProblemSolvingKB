@@ -8,10 +8,11 @@ MY_PASSWORD = 'Gookhongbiet88'
 
 now = dt.datetime.now()
 weekday = now.weekday()
-if weekday == 1:
+if weekday in range(1, 6):
     with open("quotes.txt") as quote_file:
-        all_quotes = quote_file.readline()
+        all_quotes = quote_file.readlines()
         quote = random.choice(all_quotes)
+
     print(quote)
     with smtplib.SMTP("smtp.gmail.com", 587) as connection:
         # encrypt the connection, secure it
