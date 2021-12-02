@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ada19cc1-2977-4260-ad20-13b8f2d9ab88" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Basic 30 Exception Handling-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Basic 30 Exception Handling-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic 30 Exception Handling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Basic 30 Exception Handling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
