@@ -1,7 +1,12 @@
 import requests
+from twilio.rest import Client
+import os
 
 QWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
-API_KEY = "6f28ca2af5a05f520a94a7d20b061846"
+API_KEY = "put your API key here"
+account_sid = 'ACb7130c56bbacc92bd1067ed578ca0173'
+auth_token = 'put Authorize code here'
+
 
 # Parameter for the API Call
 weather_params = {
@@ -22,9 +27,16 @@ will_snow = False
 # Get the code for the next 12 hrs
 for hour_data in weather_slice:
     condition_code = hour_data["weather"][0]['id']
-    if 600 <= int(condition_code) <= 622:
+    if 801 <= int(condition_code) <= 804:
         will_snow = True
 
 if will_snow:
-    print("It will be snow today")
+    client = Client(account_sid, auth_token)
+
+    message = client.messages.create(
+        body="It will be snow today",
+        from_="+13208558019",
+        to="+14088963449"
+    )
+    print(message.status)
 
