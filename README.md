@@ -1,4 +1,4 @@
 # Python_Fundamental
  
 ## Introduction:
-Include 3 sections:
+Include small program challanges that I solved at Hacker Rank, AI Foundation, and 100 days of Code Challanges.
