@@ -1,0 +1,68 @@
+<!-- Assignment3:
+	CREATE THE FOLLOWING "MAD-LIB" in a web app using Angularjs:
+		There Once Was a NOUN named PROPER NAME
+		That liked to VERB. Then One day he was in a(n) ADJECTIVE NOUN(2) and VERB.
+		
+		-->
+		
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>AngularJS</title>
+	<!--
+	Name: 	Truc Huynh
+	School: ECPI University.
+	-->
+	<link href="Mad_Lib.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js">
+	</script>
+
+	</head>
+	
+	<body>
+	
+			<script>
+				var app = angular.module('myApp',[]);
+				app.controller('myCtrl', function($scope) {
+					$scope.NOUN = "monster";
+					$scope.PROPER_NAME = "Jack";
+					$scope.VERB = "go";
+					$scope.ADJECTIVE = "young";
+					$scope.NOUN_2 = "jungle";
+					$scope.VERB_2 = "run";
+				});
+			</script>
+			
+			<div id="outer" ng-app="myApp" ng-controller="myCtrl">
+				<div id= "links">
+					<p>Enter your first noun for your "MAD_LIB":</p>
+					<input type="text" ng-model="NOUN">
+					<p>Enter a proper name for your "MAD_LIB":</p>
+					<input type="text" ng-model="PROPER_NAME">
+					<p>Enter your verb for your "MAD_LIB":</p>
+					<input type="text" ng-model="VERB">
+					<p>Enter an adjective for your "MAD_LIB":</p>
+					<input type="text" ng-model="ADJECTIVE">
+					<p>Enter your second noun for your "MAD_LIB":</p>
+					<input type="text" ng-model="NOUN_2">
+					<p>Enter a verb for your "MAD_LIB":</p>
+					<input type="text" ng-model="VERB_2">
+				</div>
+				
+				<div id="inner">
+					<h2>Your "MAD-LIB" is:</h2>
+					<h1>	There one was a <span>{{NOUN}}</span> named <span>{{PROPER_NAME}}</span> that liked to <span>{{VERB}}. 
+							</span>Then one day he was in a(n) <span>{{ADJECTIVE}}</span><span> {{NOUN_2}}</span> and <span>
+							{{VERB_2}}</span>. </h1>
+					
+					<address>
+							ECPI University;
+							Mr. Truc Huynh;
+							1977 Highway G ;
+							Council Bluffs, IA ; 51503
+					</address>
+				</div>
+			</div> 
+			
+	</body>
+</html>
