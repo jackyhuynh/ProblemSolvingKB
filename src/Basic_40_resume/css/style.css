@@ -97,13 +97,13 @@ a:hover{
     text-align: left;
 }
 
-.code-img{
-    width:25%;
+.right-img{
+    width:30%;
     float: left;
     margin-right: 30px;}
 
-.chilli-img{
-    width:25%;
+.left-img{
+    width:30%;
     float: right;
     margin-left:30px;}
 
