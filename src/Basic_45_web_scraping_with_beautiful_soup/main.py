@@ -1,16 +1,19 @@
-# This is a sample Python script.
+from bs4 import BeautifulSoup
+# beautiful soup 4 for web scraping
+#import lxml
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+with open("website.html", encoding="utf8") as file:
+    contents = file.read()
 
+soup = BeautifulSoup(contents, "html.parser")
+# html.parser or lxml may not work in some websites
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# print(soup.title)
+# print(soup.title.name)
+# print(soup.title.string)
+# print(soup)
+# print(soup.prettify())
+"""
+Find the info that we look for using Beautiful Soup
+"""
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
