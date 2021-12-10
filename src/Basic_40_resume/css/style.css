@@ -107,6 +107,10 @@ a:hover{
     float: right;
     margin-left:30px;}
 
+.middle-container{
+    margin-bottom: 100px
+}
+
 /*Contact section*/
 .contact-message{
     width: 40%;
