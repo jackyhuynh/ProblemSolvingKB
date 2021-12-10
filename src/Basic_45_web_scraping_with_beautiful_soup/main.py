@@ -1,11 +1,11 @@
 from bs4 import BeautifulSoup
 # beautiful soup 4 for web scraping
-#import lxml
+# import lxml
 
-with open("website.html", encoding="utf8") as file:
-    contents = file.read()
-
-soup = BeautifulSoup(contents, "html.parser")
+# with open("website.html", encoding="utf8") as file:
+#     contents = file.read()
+#
+# soup = BeautifulSoup(contents, "html.parser")
 # html.parser or lxml may not work in some websites
 
 # print(soup.title)
@@ -23,8 +23,13 @@ Find the info that we look for using Beautiful Soup
 #     print(tag.get("href"))
 #     # print(tag.getText())
 
-heading = soup.find(name="h1", id="name")
-# print(heading)
+# heading = soup.find(name="h1", id="name")
+# # print(heading)
+#
+# section_heading = soup.find(name="h3", class_="heading")
+# print(section_heading)
 
-section_heading = soup.find(name="h3", class_="heading")
-print(section_heading)
+import requests
+
+response = requests.get("")
+
