@@ -10,7 +10,7 @@ Just put r before your normal string it converts normal string to raw string:
 """
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 driver.get("https://www.amazon.com/dp/B09CTJMLQP/ref=va_live_carousel?pf_rd_r=RSRQ36WA0VYACY47JYB6&pf_rd_p=422c135c-949e-47f3-b5bb-189764debfc5&pf_rd_m=ATVPDKIKX0DER&pf_rd_t=HighVelocityEvent&pf_rd_i=epicdeals_1_desktop&pf_rd_s=slot-4&linkCode=ilv&tag=tiffanyalliso-20&ascsubtag=Todays_Deals_211211111924&asc_contentid=amzn1.amazonlive.broadcast.5d7614f3-3746-4c86-b2eb-1e8403477ccc&pd_rd_i=B09CTJMLQP&th=1&psc=1")
-price = driver.find_element(By.CLASS_NAME, "a-offscreen")
+# price = driver.find_element(By.CLASS_NAME, "a-offscreen")
 print(price.text)
 
 # driver.close() # close the
