@@ -30,6 +30,5 @@ Find the info that we look for using Beautiful Soup
 # print(section_heading)
 
 import requests
-
-response = requests.get("")
+response = requests.get("https://news.ycombinator.com/")
 
