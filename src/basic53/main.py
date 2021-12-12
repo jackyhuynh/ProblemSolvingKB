@@ -37,5 +37,7 @@ if len(addresses) == len(hyper_link) == len(price):
 
     for i in range(len(addresses)):
         driver.get(GOOGLE_FORM_URL)
+        
         time.sleep(0.5)
+
         print(i)
