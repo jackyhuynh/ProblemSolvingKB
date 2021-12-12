@@ -42,5 +42,4 @@ if len(addresses) == len(hyper_link) == len(price):
         autofill.send_keys(addresses[i], Keys.TAB, price[i], Keys.TAB, hyper_link[i], Keys.TAB, Keys.ENTER)
         print(i)
         time.sleep(2)
-
     driver.quit()
