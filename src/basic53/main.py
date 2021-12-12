@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import NoSuchElementException
 from bs4 import BeautifulSoup
 import requests
 import time
@@ -28,16 +29,18 @@ for link in links:
     addresses.append(link.getText())
     hyper_link.append(link.get("href"))
 
+print(hyper_link)
 
-# for priceIndex in price_list:
-#     price.append(float(priceIndex.getText().split('$')[1].replace(',', '')))
 if len(addresses) == len(hyper_link) == len(price):
     # initial robotic driver
     driver = webdriver.Chrome(executable_path=CHROME_DRIVER_PATH)
 
     for i in range(len(addresses)):
         driver.get(GOOGLE_FORM_URL)
-        
         time.sleep(0.5)
-
+        autofill = driver.find_element(By.XPATH, '//input[@class="quantumWizTextinputPaperinputInput exportInput"]')
+        autofill.send_keys(addresses[i], Keys.TAB, price[i], Keys.TAB, hyper_link[i], Keys.TAB, Keys.ENTER)
         print(i)
+        time.sleep(2)
+
+    driver.quit()
