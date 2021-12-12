@@ -24,7 +24,28 @@ def outer_function():
 def outer_function1():
     def nested_function():
         print("inside")
+
     return nested_function()
 
 
-inner_function = outer_function1()
+# inner_function = outer_function1()
+# inner_function()
+#################################### Another test #########################################
+
+import time
+
+
+def decorator_func(function):
+    def wrapper_func():
+        time.sleep(2)
+        function()
+
+    return wrapper_func()
+
+
+@decorator_func
+def hello_func():
+    print("hello")
+
+
+hello_func
