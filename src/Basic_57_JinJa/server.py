@@ -15,7 +15,7 @@ def home():
 
 @app.route("/guess/<string:name>")
 def guess(name):
-    gender_url = f"https://api.genderize.io?name=={name}"
+    gender_url = f"https://api.genderize.io?name={name}"
     gender_response = requests.get(gender_url)
     gender_data = gender_response.json()
     gender = gender_data["gender"]
