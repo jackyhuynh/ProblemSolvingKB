@@ -26,6 +26,14 @@ def guess(name):
     return render_template("guess.html", person_name=name, gender=gender, age=age)
 
 
+@app.route("/blog")
+def create_blog():
+    block_url = f"https://api.npoint.io/adb775ba0935a23dc42e"
+    response = requests.get(block_url)
+    data = response.json()
+    return render_template("blog.html", posts=data)
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 
