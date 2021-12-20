@@ -1,13 +1,29 @@
 from flask import Flask, render_template, request, redirect, url_for
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-all_books = []
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///new-books-collection.db"
+#Optional: But it will silence the deprecation warning in the console.
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db = SQLAlchemy(app)
+
+
+class Book(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(250), unique=True, nullable=False)
+    author = db.Column(db.String(250), nullable=False)
+    rating = db.Column(db.Float, nullable=False)
+
+
+db.create_all()
 
 
 @app.route('/')
 def home():
-    return render_template('index.html', all_books=all_books)
+    all_books = db.session.query(Book).all()
+    indexes = len(all_books)
+    return render_template('index.html', all_books=all_books, indexes=indexes)
 
 
 @app.route("/add", methods=['GET', 'POST'])
