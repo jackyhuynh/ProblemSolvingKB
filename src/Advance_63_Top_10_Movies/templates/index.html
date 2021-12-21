@@ -9,15 +9,15 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 {% endblock %}
 
-{% block title %}My Top 10 Movies{% endblock %}
+{% block title %}My Top 9 Movies{% endblock %}
 
 {% block content %}
 <div class="container">
-  <h1 class="heading">My Top 10 Movies</h1>
+  <h1 class="heading">My Top 9 Movies</h1>
   <p class="description">These are my all-time favourite movies.</p>
 
     {% for movie in movies %}
-  <div class="card" >
+  <div class="card col-lg-4 col-md-6 col_sm_12" >
     <div class="front" style="background-image: url('{{movie.img_url}}');">
         <p class="large">{{ movie.ranking }}</p>
     </div>
@@ -40,7 +40,11 @@
     {% endfor %}
 </div>
 <div class="container text-center add">
-<a href="{{ url_for('add') }}" class="button">Add Movie</a>
+    {% if show_add == True:%}
+        <a href="{{ url_for('add') }}" class="button">Add Movie</a>
+    {% else: %}
+        <p>Please delete one of your favourite to add a new video</p>
+    {% endif %}
 </div>
 
 {% endblock %}
