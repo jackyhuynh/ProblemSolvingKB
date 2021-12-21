@@ -4,6 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
+from sqlalchemy.sql import exists
 import requests
 
 
@@ -12,6 +13,7 @@ MOVIE_DB_SEARCH_URL = "https://api.themoviedb.org/3/search/movie"
 MOVIE_DB_INFO_URL = "https://api.themoviedb.org/3/movie"
 MOVIE_DB_IMAGE_URL = "https://image.tmdb.org/t/p/w500"
 
+# Create Flask Application
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 Bootstrap(app)
@@ -56,7 +58,10 @@ def home():
     for i in range(len(all_movies)):
         all_movies[i].ranking = len(all_movies) - i
     db.session.commit()
-    return render_template("index.html", movies=all_movies)
+    print(len(all_movies))
+    if len(all_movies)>:
+
+    return render_template("index.html", movies=all_movies, show_add=False)
 
 
 @app.route('/edit', methods=['GET', 'POST'])
@@ -101,8 +106,14 @@ def find_movie():
         data = response.json()
         new_movie = Movie(title=data["title"], year=data["release_date"].split('-')[0],
                           img_url=f"{MOVIE_DB_IMAGE_URL}{data['poster_path']}", description=data["overview"])
-        db.session.add(new_movie)
-        db.session.commit()
+        # Check if the movie is exits in the database:
+        exits = db.session.query(exists().where(Movie.title == data["title"])).scalar()
+
+        if exits is not True:
+            db.session.add(new_movie)
+            db.session.commit()
+        else:
+            return redirect(url_for('home'))
         return redirect(url_for("edit", id=new_movie.id))
 
 
