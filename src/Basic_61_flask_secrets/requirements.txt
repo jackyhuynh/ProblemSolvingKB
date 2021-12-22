@@ -1,3 +1,0 @@
-Flask==1.0.2
-flask
-WTForms~=3.0.0
