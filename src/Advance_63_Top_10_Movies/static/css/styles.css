@@ -154,23 +154,6 @@
 	 transform-style: preserve-3d;
 	 transition: 300ms ease;
 }
- .button:before {
-	 transition: 300ms ease;
-	 position: absolute;
-	 display: block;
-	 content: '';
-	 transform: translateZ(-40px);
-	 -webkit-backface-visibility: hidden;
-	 backface-visibility: hidden;
-	 height: calc(100% - 20px);
-	 width: calc(100% - 20px);
-	 border-radius: 100px;
-	 left: 10px;
-	 top: 16px;
-	 box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
-	 background-color: rgba(26, 87, 230, 0.25);
-}
-
 .button.delete-button {
 	 background-color: rgba(230, 87, 230, 0.25);
 	 background: linear-gradient(135deg, #e61a46, #e61a1a);
