@@ -8,4 +8,4 @@
 ## Content:
 
 [![Watch the video](https://github.com/jackyhuynh/collection_of_python_fundamental_exercises/blob/main/images/Angela.JPG)](https://100daysofpython.dev/)
-- The projects are come from Fundamental Coding Challenges.
+- Majority of the projects in this directory are come from 100 Days of Code.
