@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ada19cc1-2977-4260-ad20-13b8f2d9ab88" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Basic 31-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI Fundamental.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic 31.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank_Test.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hex Code.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySQL Practice.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayGround.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonObject.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursive.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/.idea/day16.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/another_module.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-states-game-start.zip" beforeDir="false" />
-    </list>
+    <list default="true" id="ada19cc1-2977-4260-ad20-13b8f2d9ab88" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,10 +18,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21hg5OLOKhN0TbAtEtNknMtq92T" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -53,6 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Basic 32 Birthday Wisher" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="Basic 27" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
