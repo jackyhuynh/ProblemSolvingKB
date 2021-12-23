@@ -4,6 +4,19 @@
 - Include program challanges, and projects that I solved at Hacker Rank, AI Foundation, and 100 days of Code Challanges from Problems Solving, Algorithm, Automation, Games, Web Scrapping, Console Applications, PC Applications, and Web Applications. The projects range from beginner, intermediate, and advance level. They was code in Python using Jupiter Notebook or PyCharm
 - This directory is used as my library to search for projects that I solved
 
+## Technology
+List of technology
+- Python 
+- Object Oriented Design
+- Full Stack Web Applications
+- Desktop Applications
+- Console Applications
+- Web Scrapping
+- UI/UX Design
+- Computer Graphic
+- Data Sciences
+- Algorithm
+- Problem Solving
 
 ## Content:
 
