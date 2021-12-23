@@ -1,7 +1,7 @@
 # Collection of Fundamental Coding Challanges
  
 ## Introduction:
-- Include program challanges, and projects that I solved at Hacker Rank, AI Foundation, and 100 days of Code Challanges from Problems Solving, Algorithm, Automation, Games, Web Scrapping, Console Applications, PC Applications, and Web Applications. The projects range from beginner to expert, and they was code in Python using Jupiter Notebook or PyCharm
+- Include program challanges, and projects that I solved at Hacker Rank, AI Foundation, and 100 days of Code Challanges from Problems Solving, Algorithm, Automation, Games, Web Scrapping, Console Applications, PC Applications, and Web Applications. The projects range from beginner, intermediate, and advance level. They was code in Python using Jupiter Notebook or PyCharm
 - This directory is used as my library to search for projects that I solved
 - <a href="https://github.com/jackyhuynh/collection_of_python_fundamental_exercises/tree/main/src">Source Code</a> is stored in src folder of this directory.
 
