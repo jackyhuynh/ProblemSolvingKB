@@ -8,6 +8,6 @@
 ## Content:
 
 [![Watch the video](https://github.com/jackyhuynh/collection_of_python_fundamental_exercises/blob/main/images/Angela.JPG)](https://100daysofpython.dev/)
-- Majority of the projects in this directory introduce by [100 Days of Code](https://www.udemy.com/course/100-days-of-code/). Please Take a look at Angela's course and instructions. It is really good for some one just start or simply want to consolidate your knowledge
+- Majority of the projects in this directory introduce by [100 Days of Code](https://www.udemy.com/course/100-days-of-code/). Please Take a look at Angela's courses if you are interested in learning Python. It is really good for some one just start or simply want to consolidate your knowledge
 
 - The other code challenges was from [HackerRank.com](https://www.hackerrank.com/) and [AI Academy](https://ai-academy.com/)
