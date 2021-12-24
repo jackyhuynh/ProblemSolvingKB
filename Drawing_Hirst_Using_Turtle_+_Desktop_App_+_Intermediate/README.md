@@ -25,6 +25,7 @@ A step by step series of examples that tell you how to get a development envirom
 
 
 ## Running the tests
+- Download the code to your local machine
 - Run main.py
 
 ## Deployment
