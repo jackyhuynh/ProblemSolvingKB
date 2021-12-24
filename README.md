@@ -1,4 +1,4 @@
-# Collection of Fundamental Coding Challanges
+# Collection of Coding Challanges using Python
  
 ## Introduction:
 - Include program challanges, and projects that I solved at Hacker Rank, AI Foundation, and 100 days of Code Challanges from Problems Solving, Algorithm, Automation, Games, Web Scrapping, Console Applications, PC Applications, and Web Applications. The projects range from beginner, intermediate, and advance level. They was code in Python using Jupiter Notebook or PyCharm
