@@ -4,7 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ada19cc1-2977-4260-ad20-13b8f2d9ab88" name="Changes" comment="" />
+    <list default="true" id="ada19cc1-2977-4260-ad20-13b8f2d9ab88" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/.idea/Advance_62_Coffee_and_Wifi_Pro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/.idea/csv-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/cafe-data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/templates/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/templates/cafes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_coffee_and_wifi_pro_+_flask_+_web_app/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/.idea/Advance_63_library.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/new-books-collection.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/templates/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/templates/edit_rating.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_library_request_+_flask_+_sql_+_web_app/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/.idea/Advance_64_Top_10_Movies.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/movies.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/templates/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/templates/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance_+_top_movies_list_+_flask_+_web_app/templates/select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced_+_web_design_+_tutorial_/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate_+_drawing_hirst_+_turtle_+_desktop_/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate_+_drawing_hirst_+_turtle_+_desktop_/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate_+_drawing_hirst_+_turtle_+_desktop_/.idea/desktop_app_drawing_hist_using_turtle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate_+_drawing_hirst_+_turtle_+_desktop_/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate_+_drawing_hirst_+_turtle_+_desktop_/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate_+_drawing_hirst_+_turtle_+_desktop_/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate_+_drawing_hirst_+_turtle_+_desktop_/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate_+_drawing_hirst_+_turtle_+_desktop_/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate_+_drawing_hirst_+_turtle_+_desktop_/another_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intermediate_+_drawing_hirst_+_turtle_+_desktop_/main.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
