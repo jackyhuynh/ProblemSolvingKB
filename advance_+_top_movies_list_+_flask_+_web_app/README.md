@@ -2,7 +2,6 @@
 
 ## Introduction
 - Beutiful web app that hold the list of your favourite movies.
-[https://www.loom.com/share/896c98bee0cc405c81d9c76cce069f76](https://www.loom.com/share/896c98bee0cc405c81d9c76cce069f76)
 
 ## Technology
 List of technology
