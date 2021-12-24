@@ -42,4 +42,4 @@ my README.md format was retrieved from
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-* Any acknowledgments go here
+* [100 Days of Code](https://www.udemy.com/course/100-days-of-code/)
