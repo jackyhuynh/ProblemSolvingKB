@@ -9,7 +9,7 @@ List of technology: Python, Object Oriented Design, Full Stack Web Applications,
 
 ## Lesson:
 
-### Section 66
+### Section 66: Build Rest API
 #### Turn SQLAlchemy Object into a JSO
 - Normally, we've been returning HTML templates using render_template(), but this time, because our server is now acting as an API, we want to return a JSON containing the necessary data. Just like real public APIs.
 - e.g. ISS API: http://api.open-notify.org/iss-now.json
@@ -17,6 +17,25 @@ List of technology: Python, Object Oriented Design, Full Stack Web Applications,
 
 #### Methods:
 - Flask has a serialisation helper method built-in called [jsonify()](https://www.kite.com/python/docs/flask.jsonify) . But we have to provide the structure of the JSON to return.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Content:
 [![Watch the video](https://github.com/jackyhuynh/collection_of_python_fundamental_exercises/blob/main/images/Angela.JPG)](https://100daysofpython.dev/)
