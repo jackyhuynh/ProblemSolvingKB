@@ -24,19 +24,6 @@ List of technology: Python, Object Oriented Design, Full Stack Web Applications,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Content:
 [![Watch the video](https://github.com/jackyhuynh/collection_of_python_fundamental_exercises/blob/main/images/Angela.JPG)](https://100daysofpython.dev/)
 - Majority of the projects in this directory introduce by [100 Days of Code](https://www.udemy.com/course/100-days-of-code/). Please Take a look at Angela's courses if you are interested in learning Python. It is really good for some one just start or simply want to consolidate your knowledge
