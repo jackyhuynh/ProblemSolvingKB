@@ -7,6 +7,7 @@
 There are source that is good for python development in general that I collect from good sources:
 - [Python Data Structures](documents/python_data_structure.pdf) by Tutorials Point
 - [Python Cheat Sheet](documents/python-cheat-sheet-by-asif.pdf) by [Asif Bhat](https://www.linkedin.com/in/asif-bhat/)
+- [Efficient Python Tricks and Tools for Data Scientists](https://khuyentran1401.github.io/Efficient_Python_tricks_and_tools_for_data_scientists/README.html) by [Khuyen Tran](https://www.linkedin.com/in/khuyen-tran-1401/)
 ## Technology
 List of technology
 - Python 
