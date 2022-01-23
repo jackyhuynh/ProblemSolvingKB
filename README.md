@@ -3,7 +3,9 @@
 ## Introduction:
 - Include program challanges, and projects that I solved at [Hacker Rank](https://www.hackerrank.com/), [AI Academy](https://ai-academy.com/), and 100 days of Code Challanges from Problems Solving, Algorithm, Automation, Games, Web Scrapping, Console Applications, PC Applications, and Web Applications. The projects range from beginner, intermediate, and advance level. They was code in Python using Jupiter Notebook or PyCharm
 - This directory is used as my library to search for projects that I solved. Each folder contain the specific requirements to run app
-
+## Source:
+There are source that is good for python development in general that I collect from good sources:
+- [Python Data Structures](documents/python_data_structure.pdf) by Tutorials Point
 ## Technology
 List of technology
 - Python 
