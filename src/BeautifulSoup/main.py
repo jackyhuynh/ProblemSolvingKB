@@ -1,4 +1,3 @@
-from bs4 import BeautifulSoup
 # beautiful soup 4 for web scraping
 # import lxml
 
@@ -30,5 +29,5 @@ Find the info that we look for using Beautiful Soup
 # print(section_heading)
 
 import requests
-response = requests.get("https://news.ycombinator.com/")
 
+response = requests.get("https://news.ycombinator.com/")

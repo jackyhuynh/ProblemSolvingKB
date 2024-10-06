@@ -1,7 +1,9 @@
 # arg passing 101
 import logging
+
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.DEBUG)
+
 
 def fcn_trace(func):
     # args is a tuple of positional arguments
@@ -11,7 +13,9 @@ def fcn_trace(func):
         result = func(*args, **kwargs)
         logging.info(f"{func.__name__} - end")
         return result
+
     return tracer
+
 
 @fcn_trace
 def set_list(lista):
@@ -20,10 +24,12 @@ def set_list(lista):
     # what is list now?
     return lista
 
+
 @fcn_trace
 def add_list(listb):
     listb.append("E")
     return listb
+
 
 my_list = ["D"]
 

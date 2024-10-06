@@ -1,7 +1,7 @@
 # Collection of Software Development using Python
  
 ## Introduction:
-Some small problem solving, small web applications, and automations
+Knowledge base of fundamental problem-solving, web applications, and automations
 
 ## Technology
 List of technology
