@@ -1,0 +1,284 @@
+<!-- 	Huynh Truc
+		ECPI University
+		CIS 214
+ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- 	HTML header to include html file
+ -->
+
+<!-- head block  -->
+<head>
+    <title>Central Valley Little League</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+</head>
+<!-- body block -->
+<body>
+<h1>
+    Central Valley Little League</h1>
+<h2>
+    Team Roster</h2>
+<hr/>
+<!-- Form Processor -->
+<form action="FormProcessor.html" method="get" enctype="application/x-www-form-urlencoded"
+      onsubmit="return submitRoster();">
+    <h3>
+        Team Name</h3>
+    <p>
+        <input name="teamName" size="50" type="text"/>
+    </p>
+    <h3>
+        Head Coach</h3>
+    <table border="0">
+        <tbody>
+        <tr valign="top">
+            <td>
+                Last name<br/>
+                <input name="coachLastName" size="50" type="text"/>
+                <br/>
+                First name<br/>
+                <input name="coachFirstName" size="50" type="text"/>
+                <br/>
+                Telephone<br/>
+                <input name="coachTelephone" size="50" type="text"/>
+                <br/>
+                Address<br/>
+                <input name="coachAddress" size="50" type="text"/>
+                <br/>
+                City, State, Zip<br/>
+                <input name="coachCity" size="34" type="text"/>
+                <input name="coachState" size="2" maxlength="2" type="text"/>
+                <input name="coachZip" size="5" maxlength="5" type="text"/>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <!-- Table that include Coach Information -->
+
+    <h3>
+        Team Members</h3>
+    <p>
+        <input value="Add Player" onclick="addPlayer()" type="button"/>
+        <input value="Delete Player" onclick="deletePlayer()" type="button"/>
+        <input value="Update Info" onclick="updateSelectedPlayer(document.forms[0].players.selectedIndex);"
+               type="button"/>
+    </p>
+    <table border="0">
+        <tbody>
+        <tr>
+            <td>
+                <select name="players" multiple="multiple" size="13" style="width: 150px;"
+                        onclick="getPlayerInfo(this.selectedIndex);">
+                    <option>Team Members</option>
+                </select>
+            </td>
+            <td>
+                Last name<br/>
+                <input size="50" type="text"/>
+                <br/>
+                First name<br/>
+                <input size="50" type="text"/>
+                <br/>
+                Telephone<br/>
+                <input size="50" type="text"/>
+                <br/>
+                Address<br/>
+                <input size="50" type="text"/>
+                <br/>
+                City, State, Zip<br/>
+                <input size="34" type="text"/>
+                <input size="2" maxlength="2" type="text"/>
+                <input size="5" maxlength="5" type="text"/>
+                <br/>
+                Position<br/>
+                <input size="50" type="text"/>
+                <br/>
+                <input name="permission" type="checkbox"/>
+                Permission received
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <p>
+        <input value="Submit Team Roster" type="submit"/>
+    </p>
+</form>
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+
+
+    var playerList = new Array();
+
+    // The player object
+    function Player() {
+        this.lastName = "";
+        this.firstName = "";
+        this.telephone = "";
+        this.address = "";
+        this.city = "";
+        this.state = "";
+        this.zip = "";
+        this.position = "";
+
+    }
+
+    function getPlayerInfo(curIndex) {
+        //get firstname, telephone, address, city, state, zip, and position fields from the document.
+        document.forms[0].elements[12].value = playerList[curIndex].lastName;
+        document.forms[0].elements[13].value = playerList[curIndex].firstname;
+        document.forms[0].elements[14].value = playerList[curIndex].telephone;
+        document.forms[0].elements[15].value = playerList[curIndex].address;
+        document.forms[0].elements[16].value = playerList[curIndex].city;
+        document.forms[0].elements[17].value = playerList[curIndex].state;
+        document.forms[0].elements[18].value = playerList[curIndex].zip;
+        document.forms[0].elements[19].value = playerList[curIndex].position;
+
+        if (playerList[curIndex].permission == true)
+            document.forms[0].elements[20].checked = true;
+        else
+            document.forms[0].elements[20].checked = false;
+    }
+
+    //Function to update A Player information
+    function updateSelectedPlayer(curIndex) {
+
+        //Get new information from form and update player informarion.
+        playerList[curIndex].lastName = document.forms[0].elements[12].value;
+        playerList[curIndex].firstName = document.forms[0].elements[13].value;
+        playerList[curIndex].telephone = document.forms[0].elements[14].value;
+        playerList[curIndex].address = document.forms[0].elements[15].value;
+        playerList[curIndex].city = document.forms[0].elements[16].value;
+        playerList[curIndex].state = document.forms[0].elements[17].value;
+        playerList[curIndex].zip = document.forms[0].elements[18].value;
+        playerList[curIndex].position = document.forms[0].elements[19].value;
+
+        //Check if permission box is checked
+        if (document.forms[0].elements[20].checked == true) {
+            playerList[curIndex].permission = true;
+        } else {
+            playerList[curIndex].permission = false;
+        }
+
+        //
+        document.forms[0].players.options[curIndex].value
+            = playerList[curIndex].lastName + ", " + playerList[curIndex].firstName;
+        document.forms[0].players.options[curIndex].text
+            = playerList[curIndex].lastName + ", " + playerList[curIndex].firstName;
+
+
+        // Notice user if informarion is updated.
+        window.alert("Player information updated.");
+
+        document.forms[0].elements[12].value = "";
+        document.forms[0].elements[13].value = "";
+        document.forms[0].elements[14].value = "";
+        document.forms[0].elements[15].value = "";
+        document.forms[0].elements[16].value = "";
+        document.forms[0].elements[17].value = "";
+        document.forms[0].elements[18].value = "";
+        document.forms[0].elements[19].value = "";
+    }
+
+    function clearForm() {
+        document.getElementById("myForm").reset();
+    }
+
+    function addPlayer() {
+        var newPlayer = playerList.length;
+        // check to see if the player's first AND last name has been entered,
+        // if not, print an alert message.
+
+        if (document.forms[0].elements[12].value == ""
+            && document.forms[0].elements[13].value == "") {
+            window.alert("You must enter the contact's first and last names.");
+        } else {
+            var NewPlayerInfo = new Player;
+            playerList[newPlayer] = NewPlayerInfo;
+
+            // Assign each attribute of the Player (see commented line above for an example)
+            playerList[newPlayer].lastName = document.forms[0].elements[12].value;
+            playerList[newPlayer].firstName = document.forms[0].elements[13].value;
+            playerList[newPlayer].telephone = document.forms[0].elements[14].value;
+            playerList[newPlayer].address = document.forms[0].elements[15].value;
+            playerList[newPlayer].city = document.forms[0].elements[16].value;
+            playerList[newPlayer].state = document.forms[0].elements[17].value;
+            playerList[newPlayer].zip = document.forms[0].elements[18].value;
+            playerList[newPlayer].position = document.forms[0].elements[19].value;
+
+            if (document.forms[0].elements[20].checked == true) {
+                playerList[newPlayer].permission = true;
+            } else {
+                playerList[newPlayer].permission = false;
+            }
+            // Create new player
+            var createPlayer = new Option();
+            createPlayer.value = playerList[newPlayer].lastName + ", " + playerList[newPlayer].firstName;
+            createPlayer.text = playerList[newPlayer].lastName + ", " + playerList[newPlayer].firstName;
+            document.forms[0].players.options[newPlayer] = createPlayer;
+
+            //Clear page info
+            document.forms[0].elements[12].value = "";
+            document.forms[0].elements[13].value = "";
+            document.forms[0].elements[14].value = "";
+            document.forms[0].elements[15].value = "";
+            document.forms[0].elements[16].value = "";
+            document.forms[0].elements[17].value = "";
+            document.forms[0].elements[18].value = "";
+            document.forms[0].elements[19].value = "";
+        }
+    }
+
+    function deletePlayer() {
+        var playerSelected = false;
+        var selectedPlayer = 0;
+
+        // Use a for loop to search for the selected option on the form.
+        for (i = 0; i < playerList.length; i++) {
+            try {
+                if (document.forms[0].players.options[i].selected == true) {
+                    playerSelected = true;
+                    selectedPlayer = i;
+                    if (playerSelected == true) {
+                        document.forms[0].players.remove(selectedPlayer);
+                        playerList.splice(selectedPlayer, 1);
+                        getPlayerInfo(selectedPlayer);
+                    }
+                }
+            } catch {
+                window.alert("You must select a player in the list.");
+            } finally {
+                document.forms[0].elements[12].value = "";
+                document.forms[0].elements[13].value = "";
+                document.forms[0].elements[14].value = "";
+                document.forms[0].elements[15].value = "";
+                document.forms[0].elements[16].value = "";
+                document.forms[0].elements[17].value = "";
+                document.forms[0].elements[18].value = "";
+                document.forms[0].elements[19].value = "";
+            }
+        }
+    }
+
+    function submitRoster() {
+        for (var k = 0; k < document.forms[0].players.length; ++k) {
+            document.forms[0].players.options[k].value += ", "
+                + playerList[k].telephone + ", "
+                + playerList[k].address + ", "
+                + playerList[k].city + ", "
+                + playerList[k].state + ", "
+                + playerList[k].zip + ", "
+                + playerList[k].position;
+            +playerList[k].permission;
+            document.forms[0].players.options[k].selected = true;
+        }
+        return true;
+    }
+
+    /* ]]> */
+</script>
+</body>
+</html>
+
