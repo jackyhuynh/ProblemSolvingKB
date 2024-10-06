@@ -1,7 +1,7 @@
 # Collection of Software Development using Python
  
 ## Introduction:
-Knowledge base of fundamental problem-solving, web applications, and automations
+Knowledge base of Python, fundamental problem-solving, syntax, web applications, and automations.
 
 ## Technology
 List of technology
@@ -16,4 +16,5 @@ List of technology
 - Data Sciences
 - Algorithm
 - Problem Solving
+- Automations
 
