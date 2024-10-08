@@ -1,7 +1,8 @@
 # Collection of Software Development using Python
  
 ## Introduction:
-Knowledge base of Python, fundamental problem-solving, syntax, web applications, and automations.
+- Knowledge base of problem-solving fundamental, web applications, and automations.
+- Tech Stack: Python, Java
 
 ## Technology
 List of technology
